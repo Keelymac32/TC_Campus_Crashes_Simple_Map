@@ -61,7 +61,7 @@
     }).addTo(map)
 
     // Read data from CSV file
-    $.get('./Crash2022.csv', function(csvString) {
+    $.get('./data2022.csv', function(csvString) {
 
       // Use PapaParse to transform file into arrays
       var data = Papa.parse(csvString.trim()).data.filter(
